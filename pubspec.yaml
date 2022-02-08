@@ -1,7 +1,7 @@
 name: pro_animated_blur
 description: AnimatedBlur by github.com/yasinarik
 version: 0.0.1
-homepage:
+homepage: https://github.com/yasinarik/flutter_pro_animated_blur
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

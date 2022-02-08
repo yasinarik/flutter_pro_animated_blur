@@ -15,6 +15,9 @@
 *.iws
 .idea/
 
+# FVM
+.fvm/flutter_sdk
+
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
@@ -29,6 +32,7 @@
 .pub-cache/
 .pub/
 build/
+
 
 # Android related
 **/android/**/gradle-wrapper.jar
