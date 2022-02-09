@@ -1,6 +1,7 @@
 name: pro_animated_blur
 description: ProAnimatedBlur is a widget that blurs the underlying area of its child widget and it works like AnimatedContainer, AnimatedOpacity
 version: 0.0.1
+author: Yasin Arık
 repository: https://github.com/yasinarik/flutter_pro_animated_blur
 
 environment:

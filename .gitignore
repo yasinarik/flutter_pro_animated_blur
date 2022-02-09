@@ -32,6 +32,16 @@
 .pub-cache/
 .pub/
 build/
+example/dart_tool
+example/android
+example/build
+example/ios
+example/macos
+example/web
+# !example/lib/
+# !example/pubspec.yaml
+# !example/.gitignore
+# !example/.metadata
 
 
 # Android related
@@ -79,3 +89,4 @@ build/
 !**/ios/**/default.perspectivev3
 .fvm/fvm_config.json
 .vscode/settings.json
+.vscode/launch.json

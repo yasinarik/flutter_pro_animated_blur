@@ -11,13 +11,15 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+# ProAnimatedBlur
+
 ProAnimatedBlur is a Flutter package very similar to other 'Animated' widgets
 such as AnimatedContainer, AnimatedOpacity, etc. (without a dedicated animation
 controller because it is auto-handled)
 
 It blurs the background of the child widget.
 
-Some usecases:
+**Some usecases:**
 
 - When a modal (popup window) is used, wrap the route with ProAnimatedBlur in order to blur the rest of the screen
   (you can blur the dark shaded dismissible barrier area)
@@ -29,20 +31,36 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the dependency in **pubspec.yaml**:
+
+```yaml
+dependencies:
+  pro_animated_blur: ^0.0.1
+
+  # It is recommended to use latest version.
+```
+
+**Import it**:
+
+Now in your Dart code, you can use:
+
+```dart
+import 'package:pro_animated_blur/pro_animated_blur.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+return Container(
+  clipBehavior: Clip.antiAlias, // Use a clip  option.
+  child: ProAnimatedBlur(
+    blur: _isBlurred ? 20 : 0,
+    duration: Duration(milliseconds: 200),
+    curve: Curves.linear,
+    child: Container(
+      height: 200,
+      width: 200,
+    ),
+  ),
+);
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
