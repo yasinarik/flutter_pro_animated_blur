@@ -1,2 +1,8 @@
 # FVM
 .fvm/flutter_sdk
+example/dart_tool/
+example/android/
+example/build/
+example/ios/
+example/macos/
+example/web/

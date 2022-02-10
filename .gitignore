@@ -32,12 +32,13 @@
 .pub-cache/
 .pub/
 build/
-example/dart_tool
-example/android
-example/build
-example/ios
-example/macos
-example/web
+example/build/macos/Build/Products/Debug/example.app/Contents/Frameworks/App.framework/Resources
+example/dart_tool/
+example/android/
+example/build/
+example/ios/
+example/macos/
+example/web/
 # !example/lib/
 # !example/pubspec.yaml
 # !example/.gitignore
