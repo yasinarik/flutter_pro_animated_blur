@@ -1,23 +1,12 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# **ProAnimatedBlur**
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+- ProAnimatedBlur is a Flutter package that is very similar to other 'Animated' widgets
+  such as AnimatedContainer, AnimatedOpacity, etc. \*
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+- Animates between different blur properties without needing a dedicated animation
+  controller because it is auto-handled\*
 
-# ProAnimatedBlur
-
-ProAnimatedBlur is a Flutter package very similar to other 'Animated' widgets
-such as AnimatedContainer, AnimatedOpacity, etc. (without a dedicated animation
-controller because it is auto-handled)
-
-It blurs the background of the child widget.
+- It blurs the background of the child widget.
 
 **Some usecases:**
 
@@ -26,6 +15,10 @@ It blurs the background of the child widget.
 - Wrap any of your containers to make a frosted glass style.
 
 ## Features
+
+> The example app looks like this:
+
+![ProAnimatedBlur_short_gif](https://raw.githubusercontent.com/yasinarik/flutter_pro_animated_blur/master/example/assets/ProAnimatedBlur_short.gif)
 
 ## Getting started
 
@@ -62,3 +55,13 @@ import 'package:pro_animated_blur/pro_animated_blur.dart';
     ),
   );
 ```
+
+## Author
+
+**Yasin Arık**
+
+Email: [yasin.ariky@gmail.com](mailto:yasin.ariky@gmail.com)
+
+GitHub: [github.com/yasinarik](https://github.com/yasinarik)
+
+LinkedIn: [linkedin.com/in/yasinarik](https://www.linkedin.com/in/yasinarik)

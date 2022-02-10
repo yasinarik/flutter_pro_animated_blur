@@ -1,6 +1,11 @@
+## 0.0.2+1
+
+- Visual example is added.
+- Author section is added into README.md
+
 ## 0.0.2
 
-- An example has been added.
+- An example project has been added.
 - README.md is updated.
 
 ## 0.0.1
