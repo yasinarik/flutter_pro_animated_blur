@@ -27,8 +27,6 @@ It blurs the background of the child widget.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
 ## Getting started
 
 Add the dependency in **pubspec.yaml**:
@@ -51,16 +49,16 @@ import 'package:pro_animated_blur/pro_animated_blur.dart';
 ## Usage
 
 ```dart
-return Container(
-  clipBehavior: Clip.antiAlias, // Use a clip  option.
-  child: ProAnimatedBlur(
-    blur: _isBlurred ? 20 : 0,
-    duration: Duration(milliseconds: 200),
-    curve: Curves.linear,
-    child: Container(
-      height: 200,
-      width: 200,
+  return Container(
+    clipBehavior: Clip.antiAlias, // Use a clip  option.
+    child: ProAnimatedBlur(
+      blur: _isBlurred ? 20 : 0,
+      duration: Duration(milliseconds: 200),
+      curve: Curves.linear,
+      child: Container(
+        height: 200,
+        width: 200,
+      ),
     ),
-  ),
-);
+  );
 ```
