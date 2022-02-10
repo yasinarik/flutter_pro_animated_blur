@@ -167,7 +167,8 @@ class _BlurredCardState extends State<BlurredCard> {
     /// Since this widget has ProAnimatedBlur widget inside,
 
     return Container(
-      clipBehavior: Clip.antiAlias, // Make sure to use a Clip setting other than none. Otherwise, the blurring will be applied to whole background.
+      clipBehavior: Clip
+          .antiAlias, // Make sure to use a Clip setting other than none. Otherwise, the blurring will be applied to whole background.
       decoration: BoxDecoration(
         color: Color(0x1FFFFFFF),
         borderRadius: BorderRadius.all(Radius.circular(13)),

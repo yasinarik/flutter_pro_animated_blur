@@ -17,7 +17,8 @@ class ProAnimatedBlur extends ImplicitlyAnimatedWidget {
   final Widget? child;
 
   @override
-  AnimatedWidgetBaseState<ProAnimatedBlur> createState() => _AnimatedBlurState();
+  AnimatedWidgetBaseState<ProAnimatedBlur> createState() =>
+      _AnimatedBlurState();
 
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
@@ -31,7 +32,9 @@ class _AnimatedBlurState extends AnimatedWidgetBaseState<ProAnimatedBlur> {
 
   @override
   void forEachTween(TweenVisitor<dynamic> visitor) {
-    _blurTween = visitor(_blurTween, widget.blur, (dynamic value) => Tween<double>(begin: value as double)) as Tween<double>?;
+    _blurTween = visitor(_blurTween, widget.blur,
+            (dynamic value) => Tween<double>(begin: value as double))
+        as Tween<double>?;
   }
 
   @override
@@ -48,6 +51,7 @@ class _AnimatedBlurState extends AnimatedWidgetBaseState<ProAnimatedBlur> {
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder description) {
     super.debugFillProperties(description);
-    description.add(DiagnosticsProperty<Tween<double>>('blur', _blurTween, defaultValue: null));
+    description.add(DiagnosticsProperty<Tween<double>>('blur', _blurTween,
+        defaultValue: null));
   }
 }
