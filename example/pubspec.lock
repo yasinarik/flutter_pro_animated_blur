@@ -105,10 +105,10 @@ packages:
   pro_animated_blur:
     dependency: "direct main"
     description:
-      name: pro_animated_blur
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.1"
+      path: "/Users/yasinarik/Development/flutter_packages/pro_animated_blur"
+      relative: false
+    source: path
+    version: "0.0.2+1"
   sky_engine:
     dependency: transitive
     description: flutter

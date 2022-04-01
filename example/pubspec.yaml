@@ -33,7 +33,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  pro_animated_blur: ^0.0.1
+  pro_animated_blur:
+    path: /Users/yasinarik/Development/flutter_packages/pro_animated_blur
 
 dev_dependencies:
   flutter_test:
