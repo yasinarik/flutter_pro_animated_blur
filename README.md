@@ -1,4 +1,5 @@
 # **ProAnimatedBlur**
+- **pub.dev page**: https://pub.dev/packages/pro_animated_blur
 
 - ProAnimatedBlur is a Flutter package that is very similar to other 'Animated' widgets
   such as AnimatedContainer, AnimatedOpacity, etc. \*
